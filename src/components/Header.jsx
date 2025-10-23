@@ -16,8 +16,8 @@ export default function Header() {
 
 
                 <nav className="flex gap-4 items-center">
-                    {/* <Link to="/" className="text-sm px-3 py-1 rounded-md hover:bg-white/5">Inicio</Link>
-                    <Link to="/register" className="bg-orange-600 px-3 py-1 rounded-md text-black font-semibold shadow hover:scale-105 transition">Registrar</Link> */}
+                    {/* <Link to="/" className="text-sm px-3 py-1 rounded-md hover:bg-white/5">Inicio</Link> */}
+                    <Link to="/register" className="bg-orange-600 px-3 py-1 rounded-md text-black font-semibold shadow hover:scale-105 hidden transition">Registrar</Link>
                     <Link to="/results" className="bg-orange-600 px-3 py-1 rounded-md text-black font-semibold shadow hover:scale-105 transition">Resultados 🔥</Link>
                 </nav>
             </div>
